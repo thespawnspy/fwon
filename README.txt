@@ -1,9 +1,6 @@
-F WON - Static Prediction Form (v1)
+F WON - Connected to Google Sheets (v1.2)
 
-This is a simple placeholder version of the F WON prediction app.
-- 'index.html' is your main prediction form.
-- 'style.css' provides basic styling.
-- 'script.js' contains the form submit logic (currently a placeholder).
-Upload all files to your web server or GitHub Pages.
+This version is now fully connected to:
+https://docs.google.com/spreadsheets/d/1HZZ2NpvkHUpbfjcQzYYRZRWdvkTZU-KdiD99jlh4rEk
 
-Leaderboard and admin panel to come next.
+Just upload all files to your GitHub repo, and you're live!
