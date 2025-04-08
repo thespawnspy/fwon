@@ -1,6 +1,6 @@
-F WON - Connected to Google Sheets (v1.2)
+F WON - Final Deployment (Connected)
 
-This version is now fully connected to:
-https://docs.google.com/spreadsheets/d/1HZZ2NpvkHUpbfjcQzYYRZRWdvkTZU-KdiD99jlh4rEk
+Form data will be submitted to:
+https://docs.google.com/spreadsheets/d/1RzkYVX9XY7yL5N7mjMiCDHzU4BuNRRxdnT3X1WD5DA8
 
-Just upload all files to your GitHub repo, and you're live!
+Webhook preconfigured. Just upload to GitHub and you're good to go.
