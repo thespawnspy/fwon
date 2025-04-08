@@ -10,9 +10,6 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
   });
 
   fetch("https://script.google.com/macros/s/AKfycbzxkr5Aoc2P8_5AxzSnLvbrwU-yCPXB0kyQTzvZX7nK4Eq485BIMgoUmAKgGlHe2QjW/exec", {
-
-
-
     method: "POST",
     mode: "no-cors",
     headers: {

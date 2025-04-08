@@ -3,7 +3,7 @@ body {
   padding: 20px;
   background-color: #f9f9f9;
 }
-form input {
+form input, form select {
   margin-bottom: 10px;
   display: block;
 }
