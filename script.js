@@ -9,7 +9,10 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
     data[key] = value;
   });
 
-  fetch("https://script.google.com/macros/s/AKfycby8Q79HhxXHQ-D0-KAiDGvUdCyYzt6I5QgUFEtq7qTajTD7e_WvUNqblKjUJ4VuHXxU/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbzxkr5Aoc2P8_5AxzSnLvbrwU-yCPXB0kyQTzvZX7nK4Eq485BIMgoUmAKgGlHe2QjW/exec", {
+
+
+
     method: "POST",
     mode: "no-cors",
     headers: {
