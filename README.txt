@@ -1,6 +1,7 @@
-F WON - Final Deployment (Connected)
+F WON - Updated 2025 Grid with Side-by-Side Design
 
-Form data will be submitted to:
-https://docs.google.com/spreadsheets/d/1RzkYVX9XY7yL5N7mjMiCDHzU4BuNRRxdnT3X1WD5DA8
-
-Webhook preconfigured. Just upload to GitHub and you're good to go.
+Includes:
+- All 2025 drivers and teams
+- Winning margin question (replaces Head-to-Head)
+- Styled for improved UX
+- Ready for results comparison and scoring next

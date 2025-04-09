@@ -3,221 +3,312 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>F WON - Race Predictions</title>
+  <title>F WON - Predictions</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>F WON - Race Predictions</h1>
+  <h1>F WON - Predictions</h1>
   <form id="predictionForm">
     <label>Name: <input type="text" name="name" required></label><br>
-
-    <label>Pole Position:
-      <select name="pole"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>Winner:
-      <select name="winner"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>2nd Place:
-      <select name="second"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>3rd Place:
-      <select name="third"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>Fastest Lap:
-      <select name="fastest"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>Safety Car (yes/no):
-      <select name="safetycar">
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-      </select>
-    </label><br>
-
-    <label>First to Retire:
-      <select name="retire"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>Total Finishers:
-      <select name="finishers">
-        <option value="10">10</option>
-<option value="11">11</option>
-<option value="12">12</option>
-<option value="13">13</option>
-<option value="14">14</option>
-<option value="15">15</option>
-<option value="16">16</option>
-<option value="17">17</option>
-<option value="18">18</option>
-<option value="19">19</option>
-<option value="20">20</option>
-      </select>
-    </label><br>
-
-    <label>Head-to-Head Winner:
-      <select name="h2h"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
-    <label>Driver of the Day:
-      <select name="dotd"><option value="Max Verstappen">Max Verstappen</option>
-<option value="Sergio Perez">Sergio Perez</option>
-<option value="Charles Leclerc">Charles Leclerc</option>
-<option value="Carlos Sainz">Carlos Sainz</option>
-<option value="Lewis Hamilton">Lewis Hamilton</option>
-<option value="George Russell">George Russell</option>
-<option value="Lando Norris">Lando Norris</option>
-<option value="Oscar Piastri">Oscar Piastri</option>
-<option value="Fernando Alonso">Fernando Alonso</option>
-<option value="Lance Stroll">Lance Stroll</option>
-<option value="Esteban Ocon">Esteban Ocon</option>
-<option value="Pierre Gasly">Pierre Gasly</option>
-<option value="Alex Albon">Alex Albon</option>
-<option value="Logan Sargeant">Logan Sargeant</option>
-<option value="Valtteri Bottas">Valtteri Bottas</option>
-<option value="Zhou Guanyu">Zhou Guanyu</option>
-<option value="Yuki Tsunoda">Yuki Tsunoda</option>
-<option value="Daniel Ricciardo">Daniel Ricciardo</option>
-<option value="Kevin Magnussen">Kevin Magnussen</option>
-<option value="Nico Hülkenberg">Nico Hülkenberg</option></select>
-    </label><br>
-
+    <label>Pole Position: <select name="pole"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>Winner: <select name="winner"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>2nd Place: <select name="second"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>3rd Place: <select name="third"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>Fastest Lap: <select name="fastest"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>Safety Car: <select name="safetycar"><option value="Yes">Yes</option><option value="No">No</option></select></label><br>
+    <label>First to Retire: <select name="retire"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
+    <label>Total Finishers: <select name="finishers"><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select></label><br>
+    <label>Winning Margin (in seconds): <select name="margin"><option value="0.000 – 1.000">0.000 – 1.000</option>
+<option value="1.001 – 2.500">1.001 – 2.500</option>
+<option value="2.501 – 3.500">2.501 – 3.500</option>
+<option value="3.501 – 5.000">3.501 – 5.000</option>
+<option value="5.001 – 6.500">5.001 – 6.500</option>
+<option value="6.501 – 8.000">6.501 – 8.000</option>
+<option value="8.001 – 10.000">8.001 – 10.000</option>
+<option value="10.001 – 12.000">10.001 – 12.000</option>
+<option value="12.001 – 15.000">12.001 – 15.000</option>
+<option value="15.001+">15.001+</option></select></label><br>
+    <label>Driver of the Day: <select name="dotd"><optgroup label="Red Bull">
+  <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+  <option value="Yuki Tsunoda">Yuki Tsunoda (Red Bull)</option>
+</optgroup>
+<optgroup label="Ferrari">
+  <option value="Lewis Hamilton">Lewis Hamilton (Ferrari)</option>
+  <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+</optgroup>
+<optgroup label="Mercedes">
+  <option value="George Russell">George Russell (Mercedes)</option>
+  <option value="Kimi Antonelli">Kimi Antonelli (Mercedes)</option>
+</optgroup>
+<optgroup label="McLaren">
+  <option value="Lando Norris">Lando Norris (McLaren)</option>
+  <option value="Oscar Piastri">Oscar Piastri (McLaren)</option>
+</optgroup>
+<optgroup label="Aston Martin">
+  <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+  <option value="Lance Stroll">Lance Stroll (Aston Martin)</option>
+</optgroup>
+<optgroup label="Alpine">
+  <option value="Pierre Gasly">Pierre Gasly (Alpine)</option>
+  <option value="Jack Doohan">Jack Doohan (Alpine)</option>
+</optgroup>
+<optgroup label="Williams">
+  <option value="Carlos Sainz">Carlos Sainz (Williams)</option>
+  <option value="Alexander Albon">Alexander Albon (Williams)</option>
+</optgroup>
+<optgroup label="Kick Sauber">
+  <option value="Valtteri Bottas">Valtteri Bottas (Kick Sauber)</option>
+  <option value="Zhou Guanyu">Zhou Guanyu (Kick Sauber)</option>
+</optgroup>
+<optgroup label="Haas">
+  <option value="Oliver Bearman">Oliver Bearman (Haas)</option>
+  <option value="Esteban Ocon">Esteban Ocon (Haas)</option>
+</optgroup>
+<optgroup label="Racing Bulls">
+  <option value="Liam Lawson">Liam Lawson (Racing Bulls)</option>
+  <option value="Isaac Hadjar">Isaac Hadjar (Racing Bulls)</option>
+</optgroup>
+</select></label><br>
     <button type="submit">Submit Predictions</button>
   </form>
   <script src="script.js"></script>

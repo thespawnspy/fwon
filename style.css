@@ -1,9 +1,19 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
 }
 form input, form select {
-  margin-bottom: 10px;
-  display: block;
+  margin-bottom: 12px;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #e10600;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
