@@ -10,64 +10,150 @@
   <div class="container">
     <h1>F WON - Predictions</h1>
     <form id="predictionForm">
-      <div class="card">
+      <div class="card full">
         <label>Name:</label>
         <input type="text" name="name" required />
       </div>
 
-      <div class="card-row">
-        <div class="card">
-          <label>Pole Position:</label>
-          <select name="pole">
-            <option>Max Verstappen (Red Bull)</option>
-          </select>
-        </div>
-        <div class="card result-card">
-          <label>Actual:</label>
-          <input type="text" disabled placeholder="Enter after race" />
-        </div>
-      </div>
-
-      <div class="card-row">
-        <div class="card">
-          <label>Winner:</label>
-          <select name="winner">
-            <option>Max Verstappen (Red Bull)</option>
-          </select>
-        </div>
-        <div class="card result-card">
-          <label>Actual:</label>
-          <input type="text" disabled placeholder="Enter after race" />
-        </div>
-      </div>
-
-      <div class="card-row">
-        <div class="card">
-          <label>Winning Margin (s):</label>
-          <select name="margin">
-            <option>3.501 – 5.000</option>
-          </select>
-        </div>
-        <div class="card result-card">
-          <label>Actual:</label>
-          <input type="text" disabled placeholder="Enter after race" />
-        </div>
-      </div>
-
-      <div class="card-row">
-        <div class="card full">
-          <label>Driver of the Day:</label>
-          <select name="dotd">
-            <option>Max Verstappen (Red Bull)</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="button-wrap">
-        <button type="submit">Submit Predictions</button>
-      </div>
-    </form>
+  <div class="card-row">
+    <div class="card">
+      <label>Pole Position:</label>
+      <select name="pole_position">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
   </div>
-  <script src="script.js"></script>
+
+  <div class="card-row">
+    <div class="card">
+      <label>Winner:</label>
+      <select name="winner">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>2nd Place:</label>
+      <select name="2nd_place">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>3rd Place:</label>
+      <select name="3rd_place">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>Fastest Lap:</label>
+      <select name="fastest_lap">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>Safety Car?</label>
+      <select name="safetycar"><option>Yes</option><option>No</option></select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>First to Retire:</label>
+      <select name="first_to_retire">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>Total Finishers:</label>
+      <select name="finishers">
+        <option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+  <div class="card-row">
+    <div class="card">
+      <label>Winning Margin (in seconds):</label>
+      <select name="margin">
+        <option>0.000 – 1.000</option>
+        <option>1.001 – 2.500</option>
+        <option>2.501 – 3.500</option>
+        <option>3.501 – 5.000</option>
+        <option>5.001 – 6.500</option>
+        <option>6.501 – 8.000</option>
+        <option>8.001 – 10.000</option>
+        <option>10.001 – 12.000</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <label>Driver of the Day:</label>
+      <select name="driver_of_the_day">
+        <option>Lewis Hamilton (Ferrari)</option><option>Charles Leclerc (Ferrari)</option><option>Max Verstappen (Red Bull)</option><option>Yuki Tsunoda (Red Bull)</option><option>Carlos Sainz (Williams)</option><option>Alexander Albon (Williams)</option><option>George Russell (Mercedes)</option><option>Kimi Antonelli (Mercedes)</option><option>Lance Stroll (Aston Martin)</option><option>Fernando Alonso (Aston Martin)</option><option>Pierre Gasly (Alpine)</option><option>Liam Lawson (Alpine)</option><option>Jack Doohan (Kick Sauber)</option><option>Valtteri Bottas (Kick Sauber)</option><option>Esteban Ocon (Haas)</option><option>Oliver Bearman (Haas)</option><option>Isaac Hadjar (Racing Bulls)</option><option>Daniel Ricciardo (Racing Bulls)</option>
+      </select>
+    </div>
+    <div class="card result-card">
+      <label>Actual:</label>
+      <input type="text" disabled placeholder="Enter after race" />
+    </div>
+  </div>
+
+  <div class="button-wrap">
+    <button type="submit">Submit Predictions</button>
+  </div>
+</form>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

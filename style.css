@@ -52,6 +52,9 @@ form {
   background-color: #eee;
   border-color: #ddd;
 }
+.result-card.full {
+  width: 100%;
+}
 .button-wrap {
   display: flex;
   justify-content: center;
