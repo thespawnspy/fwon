@@ -9,7 +9,7 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
     data[key] = value;
   });
 
-  fetch("https://script.google.com/macros/s/YOUR_SCRIPT_DEPLOYMENT_ID/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbx4YDBovcPP5rtj4UcdbMQitWAP9lIvaiFSIICT11PoL6hKGoOjYSuIA1IT6MjQ6VHa/exec
     method: "POST",
     mode: "no-cors", // needed to avoid CORS errors
     headers: {
