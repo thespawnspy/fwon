@@ -4,7 +4,7 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
   const form = event.target;
   const formData = new FormData(form);
 
-  fetch("https://script.google.com/macros/s/AKfycbx4YDBovcPP5rtj4UcdMQitWAP9llvaiFSIICT1lPoL6hKGo0jYSuIA1T6MjQ6VHa/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbwskciQrBAg0sE6k-Eh07iHDoVgS8sjnxiyKeT7IWoERPkPdCrLxZqvF4UZ7nGt2uMn/exec", {
     method: "POST",
     body: new URLSearchParams(formData)
   })
