@@ -17,4 +17,3 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
     console.error("Submission error:", error);
   });
 });
-  
